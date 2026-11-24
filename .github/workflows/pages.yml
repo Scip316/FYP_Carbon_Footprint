@@ -28,6 +28,7 @@ jobs:
         run: |
           mkdir -p _pages
           cp -R webapp/public/. _pages/
+          cp webapp/public/homepage.html _pages/index.html
           cp -R assets _pages/assets
           touch _pages/.nojekyll
       - uses: actions/upload-pages-artifact@v3
