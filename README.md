@@ -1,50 +1,52 @@
 # Overall Project Report
 
-## Declaration: 
-  - This FYP (Final Year Project) focuses on DevOps deplyment to Azure Services.
-  - Due to school account bug, Brayden's account was shared between Richard and Amos.
+## Declaration
+- This FYP (Final Year Project) focuses on DevOps deployment to Azure Services.
+- Due to a school account bug, Brayden's account was shared between Richard and Amos.
 
-## About the Project:
+## About the Project
 This project aims to calculate a vehicle's carbon emissions based on the distance travelled.
-Since it is a project design with a DevOps theme, the team decided to make a Web App.
+Since it is a project designed with a DevOps theme, the team decided to make a Web App and deploy it via pipeline.
 
 ## Website
 - **GitHub Pages (static website):** [Carbon Footprint Calculator](https://scip316.github.io/FYP_Carbon_Footprint/homepage.html)
 - **Azure Web App** (**DEPRECATED**): [Previous deployment](https://fypprojectwebapp.azurewebsites.net)
 
-## Services used: 
-  - Platform: Github, Github Actions, GitHub pages, Docker
-  - Security: Sonar Cloud, Syntax
-  - Azure Deployment: Azure Access Control (IAM), Azure Cost Analysis, Azure Container Registry, Azure SQL and Azure Web App
+## Services used
+- Platform: GitHub, GitHub Actions, GitHub Pages, Docker
+- Security: SonarCloud, Syntax
+- Azure Deployment: Azure Access Control (IAM), Azure Cost Analysis, Azure Container Registry, Azure SQL and Azure Web App
 
-## Project Development Flow:
+## Project Development Flow
 
-### Phase 1: Development:
-- Without much DevOps or Deployment experience, the team focus on brainstorming what sort of app/service to make. 
-- Eventually, they settle on a Eco-Friendly theme, and hence develop the Carbon Emission Calcutor.
+### Phase 1: Development
+- Without much DevOps or Deployment experience, the team focused on brainstorming what sort of app/service to make.
+- Eventually, they settled on an Eco-Friendly theme, and hence developed the Carbon Emission Calculator.
 
-### Phase 2: Pipeline Research:
-- While waiting for the application to be built, the team tied to explore how to deploy the web application.
-- To gain insights into DevOps, they seeked Darrel advise, as he was in a DevOps Internship (I am the author of this).
-- Throughout the project phase, they consulted Darrel, who suggest different type of services and gave reference links for deployment.
+### Phase 2: Pipeline Research
+- While waiting for the application to be built, the team tried to explore how to deploy the web application.
+- To gain insights into DevOps, they sought Darrel's advice, as he was in a DevOps Internship (I am the author of this).
+- The team consulted Darrel (the author of this cleanup) to gain insights into DevOps, as he was doing a DevOps internship at the time.
+- Throughout the project phase, they consulted Darrel, who suggested different types of services and gave reference links for deployment.
 
 ### Phase 3: Deployment
-- After the research and trail and error, the team package the web application into a docker image. 
-- They orginally wanted to deploy to vercel, but realised that it does not meet one of the FYP.
-- Eventually, they settle on Azure Free Trail to host their website
-
-
-# Contributors and their role
-
-| Name | Roles |
-| Brayden | Team lead, infrastructure and pipeline engineer |
-| Amos | Test cases developer and Sonarcloud intergrations |
-| Richard | Docker intergration  |
-| JiChi | Web app developer, Syntax intergration
-| Darrel | Project advior |
+- After the research and trial and error, the team packaged the web application into a Docker image.
+- They originally wanted to deploy to Vercel, but realised that it did not meet one of the FYP requirements.
+- Eventually, they settled on Azure Free Trial to host their website.
 
 ---
-# Legacy Project Report before cleanup
+
+# Contributors and their roles
+| Name | Roles |
+| --- | --- |
+| Brayden | Team lead, infrastructure engineer, and pipeline engineer |
+| Amos | Test case developer and SonarCloud integrator |
+| Richard | Docker integrator |
+| JiChin | Web app developer and Syntax integrator |
+| Darrel | Project advisor |
+
+---
+# Legacy Project Report before cleanup (Made by the Team)
 This was the comments before project submission
 
 ## Planning and Setup
