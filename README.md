@@ -12,11 +12,12 @@ Since it is a project designed with a DevOps theme, the team decided to make a W
 - **GitHub Pages (static website):** [Carbon Footprint Calculator](https://scip316.github.io/FYP_Carbon_Footprint/homepage.html)
 - **Azure Web App** (**DEPRECATED**): [Previous deployment](https://fypprojectwebapp.azurewebsites.net)
 
-## Services used
-- Platform: GitHub, GitHub Actions, GitHub Pages, Docker
-- Security: SonarCloud, Syntax
-- Azure Deployment: Azure Access Control (IAM), Azure Cost Analysis, Azure Container Registry, Azure SQL and Azure Web App
-
+## Services Used
+- Platforms and Tools: GitHub, GitHub Actions, GitHub Pages, Docker
+- Code Quality and Security: SonarCloud, Snyk
+- Azure Deployment: Azure Container Registry, Azure SQL, Azure Web App
+- Azure Management: Azure Access Control (IAM), Microsoft Cost Management
+-   
 ## Project Development Flow
 
 ### Phase 1: Development
