@@ -1,10 +1,20 @@
 # Overall Project Report
 
-- Declaration: 
+## Declaration: 
   - This FYP (Final Year Project) focuses on DevOps deplyment to Azure Services.
   - Due to school account bug, Brayden's account was shared between Richard and Amos.
 
-- Services used: Github, Github Actions, Sonar Cloud, Syntax, Docker, Azure SQL, Azure Webapp and xxx
+## Services used: 
+  - Platform: Github, Github Actions, Docker
+  - Security: Sonar Cloud, Syntax
+  - Azure Deployment: Azure Access Control (IAM), Azure Cost Analysis, Azure Container Registry, Azure SQL and Azure Web App, 
+
+## About the Project:
+This project aims to calculate a vehicle's carbon emissions based on the distance travelled.
+Since it is a project design with a DevOps theme, the team decided to make a Web App.
+
+### Project Planning and deficuties:
+
 
 ## Website
 - **GitHub Pages (static website):** [Carbon Footprint Calculator](https://scip316.github.io/FYP_Carbon_Footprint/homepage.html)
@@ -12,18 +22,15 @@
 
 # Contributors and their role
 
-
-# Legacy Project Report before cleanup
-
-## Project goals
-
-- Estimate a vehicle's carbon emissions based on the distance travelled.
-- Develop a full-stack web application with a frontend, backend, and database.
-- Focus primarily on infrastructure deployment, including containerization, CI/CD automation, and security scanning.
-
+| Name | Roles |
+| Brayden | Team lead, infrastructure and pipeline engineer |
+| Amos | Test cases developer and Sonarcloud intergrations |
+| Richard | Docker intergration  |
+| JiChi | Web app developer, Syntax intergration
+| Darrel | Project advior |
 
 ---
-# Legacy Comments 
+# Legacy Project Report before cleanup
 This was the comments before project submission
 
 ## Planning and Setup
